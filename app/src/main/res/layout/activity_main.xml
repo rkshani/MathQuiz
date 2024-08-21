@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/actionBarSize"
+        tools:ignore="UselessParent">
+
+
+        <ImageView
+            android:id="@+id/appLogoImg"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/app_logo250"
+            android:gravity="center"
+            android:fontFamily="@font/myfont"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:id="@+id/StartQuiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Button_Start"
+            android:textSize="18sp"
+            android:layout_marginTop="50dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="40dp"
+            android:paddingLeft="40dp"
+            android:textColor="@color/White"
+            android:background="@drawable/btn_shape_capsule"
+            android:fontFamily="@font/myfont"/>
+
+        <Button
+            android:id="@+id/btn_Achievements"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_achievements"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="40dp"
+            android:paddingLeft="40dp"
+            android:textColor="@color/White"
+            android:background="@drawable/btn_shape_capsule"
+            android:fontFamily="@font/myfont"/>
+
+        <Button
+            android:id="@+id/ShareGameQuiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Button_Share"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="40dp"
+            android:paddingLeft="40dp"
+            android:textColor="@color/White"
+            android:background="@drawable/btn_shape_capsule"
+            android:fontFamily="@font/myfont"/>
+
+        <Button
+            android:id="@+id/RateGameQuiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Button_Rate"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="40dp"
+            android:paddingLeft="40dp"
+            android:textColor="@color/White"
+            android:background="@drawable/btn_shape_capsule"
+            android:fontFamily="@font/myfont"/>
+
+        <Button
+            android:id="@+id/AboutQuiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Button_About"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="40dp"
+            android:paddingLeft="40dp"
+            android:textColor="@color/White"
+            android:background="@drawable/btn_shape_capsule"
+            android:fontFamily="@font/myfont"/>
+
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/admob_banner_id"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

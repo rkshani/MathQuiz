@@ -1,0 +1,70 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Math Quiz</string>
+
+    <!-- Strings of Main Page -->
+    <string name="Button_Start">Play</string>
+    <string name="Button_Rate">Rate the Game</string>
+    <string name="Button_Share">Share the Game</string>
+    <string name="Button_About">About Game</string>
+
+    <!-- Toolbar -->
+    <string name="toolbar_achievements">My Achievements</string>
+
+    <!-- Strings of Share Game Text-->
+    <string name="ShareText">Download the typing speed test game from the Google Play Store: </string>
+
+    <string name="Question">Question: </string>
+    <string name="TimeOut">Time Out</string>
+
+
+    <!-- Strings of Dialog Game Difficulty -->
+    <string name="game_difficulty">Game Difficulty</string>
+    <string name="game_difficulty_random">Random</string>
+    <string name="game_difficulty_easy">Easy</string>
+    <string name="game_difficulty_medium">Medium</string>
+    <string name="game_difficulty_hard">Hard</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Strings of Quiz Result Game-->
+    <string name="Result_RightAnswers">Right Answers</string>
+    <string name="Result_BestScore">Best Score</string>
+    <string name="Result_PlayAgain">Play Again</string>
+    <string name="Result_Back">Back</string>
+    <string name="dialog_wait">Wait..</string>
+
+    <!-- Strings of About Game Dialog -->
+    <string name="ok">Ok</string>
+    <string name="rateUs">Rate the Game</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <!-- Strings of ABOUT Dialog -->
+    <string name="About_Text">It is a game to test your speed in solving easy and medium math quiz during the time you have in the game.</string>
+    <string name="About_Version"> Version: </string>
+    <string name="About_Version_Number">1.0.0</string>
+
+    <!-- Achievements -->
+    <string name="my_achievements">My Achievements</string>
+    <string name="achievements_timer">Answer correct \n in 5 seconds</string>
+    <string name="achievements_score_5">Best Score 5</string>
+    <string name="achievements_score_10">Best Score 10</string>
+    <string name="achievements_score_50">Best Score 50</string>
+    <string name="not_completed">Not Completed Yet</string>
+
+
+    <!-- ADS AREA IS HERE -->
+    <!-- Choice What Ads Network you want to be showing "On/Off"  -->
+    <string name="admob_ads_work">On</string>
+    <string name="unity_ads_work">On</string>
+
+    <!-- Admob Ads -->
+    <string name="admob_app_id">ca-app-pub-5580537606944457~4465578836</string>
+    <string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
+
+    <!-- Unity Ads -->
+    <string name="unityGameID">4873855</string>
+    <string name="adUnitId">Rewarded_Android</string>
+
+
+</resources>
